@@ -1,0 +1,98 @@
+
+
+#register{
+  margin: 40px 100px;
+  .register{
+    text-align: center;
+    &--title{
+      width: 478px;
+      height: 60.26px;
+      background: #4777F5;
+      border-radius: 9px 9px 0 0;
+      font-family: 'Anek Bangla',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 75px;
+      color: #FFFFFF;
+    }
+    &--body{
+      width: 478px;
+      height: 395.74px;
+      &__subtitle{
+        margin: 30px 0;
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #969696;
+      }
+      &__line{
+        width: 90%;
+        margin: 20px auto;
+        border: 1px solid #C4C4C4;
+      }
+      &__name{
+        position: relative;
+        margin: 20px 0;
+        width: 415px;
+        height: 56px;
+        background: #ECF4F5;
+        border: 1px solid #C4C4C4;
+        border-radius: 5px;
+        font-size: 20px;
+        &::placeholder{
+          position: absolute;
+          margin: 10px 0;
+          font-size: 13px;
+        }
+      }
+      &__star {
+        position: absolute;
+        margin: 30px -380px;
+        color: red;
+      }
+      &__phone{
+        position: relative;
+        margin: 20px 0;
+        width: 415px;
+        height: 56px;
+        background: #ECF4F5;
+        border: 1px solid #C4C4C4;
+        border-radius: 5px;
+        font-size: 20px;
+        &::placeholder{
+          position: absolute;
+          margin: 10px 0;
+          font-size: 13px;
+        }
+      }
+      &__phoneStar {
+        position: absolute;
+        margin: 30px -350px;
+        color: red;
+      }
+      &__btn{
+        margin: 20px 0;
+        padding: 20px 130px;
+        background: #4777F5;
+        border-radius: 9px;
+        border: none;
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 18px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+        transition: .2s ease;
+        &:hover{
+          transform: scale(1.03);
+        }
+      }
+    }
+  }
+}

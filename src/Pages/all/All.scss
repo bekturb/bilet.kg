@@ -1,0 +1,49 @@
+
+#all {
+  position: relative;
+  text-align: center;
+  .all {
+    &__head{
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px 0;
+
+      &__title {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #4777F5;
+        margin: 0 450px;
+
+
+
+        &::after {
+          content: '';
+          position: absolute;
+          width: 205px;
+          height: 0;
+          margin: 10px 20px;
+
+          border: 1px solid #4777F5;
+          color: #4777F5;
+
+        }
+
+        &::before {
+          content: '';
+          position: absolute;
+          width: 205px;
+          height: 0;
+          margin: 10px -220px;
+          border: 1px solid #4777F5;
+          color: #4777F5;
+
+        }
+      }
+    }
+  }
+}

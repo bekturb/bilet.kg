@@ -1,0 +1,81 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100;300;400;500;700&family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap');
+
+#header {
+  max-width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  border-radius: 0;
+  .header--container{
+    width: 1140px;
+    margin: 0 auto;
+  }
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+    &__logo {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      color: #4777F5;
+    }
+
+    &__inputs {
+      position: relative;
+      margin: 0 250px;
+
+
+      &__input {
+        border: 1px solid #4777F5;
+        border-radius: 8px;
+        width: 435px;
+        height: 30px;
+        font-size: 15px;
+        text-transform: capitalize;
+        z-index: 1;
+      }
+
+
+      &__search {
+        color: #4777F5;
+        position: absolute;
+        right: 0;
+        left: 410px;
+        top: 7px;
+        transition: .2s ease;
+        &:hover{
+          transform: scale(1.2);
+        }
+      }
+
+    }
+
+    &__basket {
+      position: relative;
+      font-size: 20px;
+      color: #4777F5;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+    &__circle{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background: #a1a0a0;
+      border-radius: 50%;
+      margin: -10px 20px;
+      font-size: 8px;
+      text-align: center;
+      color: #f50e06;
+    }
+  }
+}

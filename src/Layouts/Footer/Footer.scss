@@ -1,0 +1,46 @@
+#footer {
+  background: #4777F5;
+  height: 201px;
+}
+.footer {
+  display: flex;
+  gap: 220px;
+  align-items: center;
+  margin: 35px ;
+  &__title {
+    font-family: 'Anek Bangla', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 75px;
+    color: #FFFFFF;
+  }
+  &__subtitle1 {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #D2D2D2;
+  }
+  &__subtitle {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 20px 0;
+  }
+  &__tel {
+    flex-direction: row;
+  }
+  &__num {
+    margin: 0 0 10px;
+  }
+  &__link {
+    margin: 0 10px 0 0;
+    font-size: 25px;
+  }
+}
+.footer__link{
+  color: #FFFFFF;
+}

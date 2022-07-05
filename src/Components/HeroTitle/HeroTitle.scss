@@ -1,0 +1,42 @@
+.hero__sort{
+  margin-top: -20px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  &--items{
+    position: absolute;
+    margin: 80px 50px;
+    width: 250px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: -4px -4px 17px rgba(170, 170, 170, 1), 4px 4px 17px rgba(170, 170, 170, 1);
+    z-index: 1000000;
+
+    &--line{
+      width: 80%;
+      margin: 0 auto;
+    }
+    &--item{
+      border: none;
+      margin: 10px 0;
+      padding: 5px 13px;
+      background: #FFFFFF;
+      border-radius: 5px;
+      font-family: 'Montserrat',sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 15px;
+      /* identical to box height */
+
+
+      color: #4777F5;
+      transition: .2s ease;
+      &:hover{
+        background: #4777F5;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
